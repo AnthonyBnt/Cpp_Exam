@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.29)
+project(Exam)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(Exam main.cpp
+        Animal.cpp
+        Mammal.cpp
+        Bird.cpp
+        Reptile.cpp
+        Zoo.cpp
+        KNN.cpp)
